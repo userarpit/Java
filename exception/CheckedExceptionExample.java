@@ -6,10 +6,10 @@ package exception;
 //Importing I/O classes
 import java.io.*;
 
-//Main class
+//Main1 class
 class CheckedExceptionExample {
 
-	// Main driver method
+	// Main1 driver method
 	public static void main(String[] args) throws IOException
 	{
 

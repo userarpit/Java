@@ -1,4 +1,4 @@
-package src;
+package Database;
 import static java.lang.Math.min;
 
 import java.io.PrintStream;

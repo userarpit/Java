@@ -1,6 +1,6 @@
-package test1;
+package test;
 
-public class AccessModifier {
+public class AccessModifier1 {
     public static void main(String[] args) {
     	AM a1 = new AM();
     	System.out.println(a1.getA());

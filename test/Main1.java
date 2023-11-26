@@ -1,9 +1,9 @@
-package test1;
+package test;
 
 import java.util.StringTokenizer;
 
 //import java.io. * ;
-public class Main {
+public class Main1 {
   public static void main(String[] args) {
 	  
     StringBuffer str = new StringBuffer("ContentWriter");
@@ -26,7 +26,7 @@ public class Main {
     sa = sa + " Khandelwal";
     System.out.println(sbu.hashCode());
     System.out.println(sa.hashCode());
-    Main m  =new Main();
+    Main1 m  =new Main1();
     System.out.println(m);
     StringTokenizer st = new StringTokenizer("Java,is,a,high,level,language");
     System.out.println(st.countTokens());
@@ -36,6 +36,6 @@ public class Main {
     System.out.println(st.countTokens());
   }
   public String toString() {
-	return "Main class object print";  
+	return "Main1 class object print";  
   }
 }

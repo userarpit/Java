@@ -1,8 +1,8 @@
-package test1;
+package test;
 
 import java.util.regex.Pattern;
 
-public class Patterns {
+public class Patterns1 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

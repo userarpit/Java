@@ -14,7 +14,7 @@ public class Overload {
 		return a + b + c;
 	}
 	
-	Overload() {
+	protected Overload() {
 		
 	}
 	

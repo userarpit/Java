@@ -43,14 +43,14 @@ public class Multi extends Thread{
 		}
 		
 		
-		System.out.println("************  Main Thread data below  **********************");
+		System.out.println("************  Main1 Thread data below  **********************");
 		
 		//t1.stop();
 		//System.out.println(t1.getState());
 		Thread t = Thread.currentThread();
 		System.out.println(t.getState());
 		System.out.println(t.toString());
-		System.out.println("Main Thread priority " + t.getPriority());
+		System.out.println("Main1 Thread priority " + t.getPriority());
 		System.out.println(t.getName());
 		System.out.println(t.getId());
 		System.out.println(t.isAlive());

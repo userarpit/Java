@@ -7,6 +7,19 @@ abstract public class Animal {
 	 * @return nothing
 	 */
 	abstract void sound();
+	private int age=100;
+	/**
+	 * @return the age
+	 */
+	protected int getAge() {
+		return age;
+	}
+	/**
+	 * @param age the age to set
+	 */
+	protected void setAge(int age) {
+		this.age = age;
+	}
 	/**
 	 * 
 	 * @param args list of arguments
@@ -65,7 +78,9 @@ class Dog extends Animal{
  }
 
 class Cat extends Animal {
+	
 	void sound() {
+		System.out.println(super.getAge());
 		System.out.println("Meow");
 	}
 }

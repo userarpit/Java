@@ -1,4 +1,4 @@
-package test1;
+package test;
 //import java.util.*;
 public class Capitalize {
 	public static void main(String[] args) {

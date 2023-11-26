@@ -25,4 +25,3 @@ public class TestAbstract {
 		System.out.println("Honda created");
 	}
 }
-

@@ -1,6 +1,6 @@
 package test;
 
-public class Covariant extends A{
+public class Covariant extends A1{
 	/*A foo() {
 		return this;
 	}*/	
@@ -9,7 +9,7 @@ public class Covariant extends A{
 	}
 	void print() {
 		System.out.println("print covariant");
-		System.out.println(A.t);
+		System.out.println(A1.t);
 	}
 	static {
 		System.out.println("static in child class");
@@ -19,23 +19,23 @@ public class Covariant extends A{
 		new Covariant().fooanother().print();
 	}
 }
-class A {
+class A1 {
 	static final int t;
-	final int a;
+	final int a=10;
 	
-	A() {
+	A1() {
 		//t=33;
-		a=20;
+//		a=20;
 		System.out.println("super class");
 	}
 	static { t=55;
 	
 	System.out.println("Static in parent class");
 	}
-	final A foo() {
+	final A1 foo() {
 		return this;
 	}
-	A fooanother() {
+	A1 fooanother() {
 		return this;
 	}
 }

@@ -7,7 +7,7 @@ import java.util.*;
 
 public class GFG {
 
-	// Main method
+	// Main1 method
 	public static void main(String[] args)
 	{
 
