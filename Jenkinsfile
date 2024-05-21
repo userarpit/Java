@@ -12,11 +12,6 @@ pipeline {
         timeout(time: 1, unit: 'HOURS') 
     }
     stages {
-        stage('git checkout') {
-            steps {
-                git 'https://github.com/edureka-git/DevOpsClassCodes.git'
-            }
-        }
         stage('code compilation') {
             steps {
                 sh 'mvn compile'
