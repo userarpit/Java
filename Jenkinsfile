@@ -11,9 +11,9 @@ pipeline {
           }
         }
 
-        stage('') {
+        stage('shell command') {
           steps {
-            sh '"ls -al"'
+            sh 'ls -al'
           }
         }
 
