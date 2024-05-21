@@ -2,10 +2,21 @@ pipeline {
   agent any
   stages {
     stage('Build') {
-      agent any
-      steps {
-        echo 'helllo'
-        sleep 5
+      parallel {
+        stage('Build') {
+          agent any
+          steps {
+            echo 'helllo'
+            sleep 5
+          }
+        }
+
+        stage('') {
+          steps {
+            sh '"ls -al"'
+          }
+        }
+
       }
     }
 
