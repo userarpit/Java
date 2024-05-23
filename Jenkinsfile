@@ -1,5 +1,11 @@
 pipeline {
-  agent any
+  agent {
+  label {
+            label 'windows'
+            retries 1
+        }
+  }
+  
   stages {
     stage('Build') {
       parallel {
